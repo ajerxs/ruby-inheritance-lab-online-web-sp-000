@@ -1,8 +1,6 @@
 require_relative "./student.rb"
 class Student < User
-  def initialize
-    @first_name = first_name
-    @last_name = last name
+  def new
     @knowledge = []
   end
 end
